@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="pinyougousellergoodsinterface:war">
+    <output-path>$PROJECT_DIR$/pinyougousellergoodsinterface/target</output-path>
+    <root id="archive" name="pinyougou-sellergoods-interface.war">
+      <element id="artifact" artifact-name="pinyougousellergoodsinterface:war exploded" />
+    </root>
+  </artifact>
+</component>
