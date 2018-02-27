@@ -34,8 +34,7 @@ public class BrandController {
 	 */
 	@RequestMapping("/findOne")
 	public TbBrand findOne(@RequestParam("id") Long id){
-		System.gc();
-		return brandService.findOne(id);		
+		return brandService.findOne(id);
 	}
 	
 	@RequestMapping("/findPage")
